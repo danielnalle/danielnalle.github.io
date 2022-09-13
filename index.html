@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="public/css/style.css">
     <title>Daniel Nalle</title>
+    <style type="text/tailwindcss">
+        * {
+            border: 1px solid red;
+        }
+    </style>
 </head>
+
 <body>
-    <h1 class="m-10">Porto website</h1>
+    <nav class="bg-slate-900 px-16 py-3 text-white flex justify-between align-center static top-0">
+        <div class="flex text-xl justify-center">
+            <h1>Daniel Nalle</h1>
+        </div>
+        <div class="flex">
+            <ul class="flex">
+                <li class="ml-12 px-2 py-1"><a href="#">Home</a></li>
+                <li class="ml-12 px-2 py-1"><a href="#">About</a></li>
+                <li class="ml-12 px-2 py-1"><a href="#">Projects</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="px-16 py-9 text-slate-900">
+        <figure class="px-7 py-16 flex justify-between">
+            <div class="w-2/5">
+                <img src="public/img/profile.jpg" alt="My Profile"
+                    class="object-cover h-[400px] w-[400px] border-[3px] border-solid border-slate-900">
+            </div>
+            <div class="w-3/5 pr-7 py-8 flex flex-col content-center justify-center">
+                <h1 class="text-6xl font-bold mb-4">Hi There!</h1>
+                <p class="text-3xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda magnam delectus
+                    earum maxime suscipit sint excepturi possimus quisquam blanditiis dolor.</p>
+            </div>
+        </figure>
+        <div class="px-7 py-12 flex">
+            <div class="w-3/5 pr-11 flex flex-col content-center">
+                <h1 class="text-5xl font-semibold mb-6">My Career So Far</h1>
+                <p class="text-2xl">Always up for a challenge, I have worked for lean start-ups and was a member of the first New Zealand start-up to attend Y Combinator, the largest start-up accelerator in the world. From there, I worked my way up to Art Director and Team Lead at Appster where I oversaw the design of 30+ mobile and desktop apps. Currently, I lead UI/UX design at SaaS start-up VideoMyJob. </p>
+            </div>
+            <div class="w-2/5">
+                <ul class="h-full flex content-center flex-wrap">
+                    <li class="py-1 px-2 rounded-md font-medium uppercase tracking-wide border border-solid border-slate-300 m-1.5">UI Design</li>
+                    <li class="py-1 px-2 rounded-md font-medium uppercase tracking-wide border border-solid border-slate-300 m-1.5">UX Design</li>
+                    <li class="py-1 px-2 rounded-md font-medium uppercase tracking-wide border border-solid border-slate-300 m-1.5">Prototyping</li>
+                    <li class="py-1 px-2 rounded-md font-medium uppercase tracking-wide border border-solid border-slate-300 m-1.5">Branding</li>
+                    <li class="py-1 px-2 rounded-md font-medium uppercase tracking-wide border border-solid border-slate-300 m-1.5">HTML/CSS</li>
+                    <li class="py-1 px-2 rounded-md font-medium uppercase tracking-wide border border-solid border-slate-300 m-1.5">Wireframing</li>
+                    <li class="py-1 px-2 rounded-md font-medium uppercase tracking-wide border border-solid border-slate-300 m-1.5">Information Architecture</li>
+                    <li class="py-1 px-2 rounded-md font-medium uppercase tracking-wide border border-solid border-slate-300 m-1.5">User Research</li>
+                    <li class="py-1 px-2 rounded-md font-medium uppercase tracking-wide border border-solid border-slate-300 m-1.5">User Interviews</li>
+                    <li class="py-1 px-2 rounded-md font-medium uppercase tracking-wide border border-solid border-slate-300 m-1.5">Leadership</li>
+                    <li class="py-1 px-2 rounded-md font-medium uppercase tracking-wide border border-solid border-slate-300 m-1.5">Figma</li>
+                    <li class="py-1 px-2 rounded-md font-medium uppercase tracking-wide border border-solid border-slate-300 m-1.5">Adobe Suite</li>
+                </ul>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
